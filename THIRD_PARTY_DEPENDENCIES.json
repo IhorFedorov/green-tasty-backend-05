@@ -1,0 +1,777 @@
+[
+  {
+    "id": {
+      "value": "AWSSDK.CognitoIdentityProvider"
+    },
+    "version": {
+      "value": "4.0.1.4"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "AWSSDK.Core"
+    },
+    "version": {
+      "value": "4.0.101"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "AWSSDK.DynamoDBv2"
+    },
+    "version": {
+      "value": "4.0.1.5"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "AWSSDK.S3"
+    },
+    "version": {
+      "value": "4.0.1.7"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "AWSSDK.SQS"
+    },
+    "version": {
+      "value": "4.0.0.12"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "Amazon.Lambda.APIGatewayEvents"
+    },
+    "version": {
+      "value": "2.4.0"
+    }
+  },
+  {
+    "id": {
+      "value": "Amazon.Lambda.Core"
+    },
+    "version": {
+      "value": "2.2.0"
+    }
+  },
+  {
+    "id": {
+      "value": "Amazon.Lambda.SQSEvents"
+    },
+    "version": {
+      "value": "2.2.0"
+    }
+  },
+  {
+    "id": {
+      "value": "Amazon.Lambda.Serialization.SystemTextJson"
+    },
+    "version": {
+      "value": "2.2.0"
+    }
+  },
+  {
+    "id": {
+      "value": "AutoFixture.Xunit2"
+    },
+    "version": {
+      "value": "4.18.1"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Ploeh 2011"
+    }
+  },
+  {
+    "id": {
+      "value": "AutoFixture"
+    },
+    "version": {
+      "value": "4.18.1"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Ploeh 2011"
+    }
+  },
+  {
+    "id": {
+      "value": "BouncyCastle.Cryptography"
+    },
+    "version": {
+      "value": "2.4.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Legion of the Bouncy Castle Inc. 2000-2024"
+    }
+  },
+  {
+    "id": {
+      "value": "Castle.Core"
+    },
+    "version": {
+      "value": "5.1.1"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (c) 2004-2022 Castle Project - http://www.castleproject.org/"
+    }
+  },
+  {
+    "id": {
+      "value": "Enums.NET"
+    },
+    "version": {
+      "value": "5.0.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Tyler Brinkley 2016"
+    }
+  },
+  {
+    "id": {
+      "value": "ExtendedNumerics.BigDecimal"
+    },
+    "version": {
+      "value": "2025.1001.2.129"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Adam White. MIT License. See License."
+    }
+  },
+  {
+    "id": {
+      "value": "Fare"
+    },
+    "version": {
+      "value": "2.1.1"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Nikos Baxevanis 2016"
+    }
+  },
+  {
+    "id": {
+      "value": "MathNet.Numerics.Signed"
+    },
+    "version": {
+      "value": "5.0.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright Math.NET Project"
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.Bcl.Cryptography"
+    },
+    "version": {
+      "value": "10.0.2"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.CodeCoverage"
+    },
+    "version": {
+      "value": "17.8.0"
+    },
+    "license": {
+      "value": "LICENSE_MIT.txt",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.Extensions.DependencyInjection.Abstractions"
+    },
+    "version": {
+      "value": "10.0.12"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.Extensions.DependencyInjection"
+    },
+    "version": {
+      "value": "10.0.12"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.Extensions.Logging.Abstractions"
+    },
+    "version": {
+      "value": "8.0.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IO.RecyclableMemoryStream"
+    },
+    "version": {
+      "value": "3.0.1"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.Abstractions"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.JsonWebTokens"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.Logging"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.Protocols.OpenIdConnect"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.Protocols"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.IdentityModel.Tokens"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.NET.Test.Sdk"
+    },
+    "version": {
+      "value": "17.8.0"
+    },
+    "license": {
+      "value": "LICENSE_MIT.txt",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.NETCore.Platforms"
+    },
+    "version": {
+      "value": "1.1.0"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation.  All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.TestPlatform.ObjectModel"
+    },
+    "version": {
+      "value": "17.8.0"
+    },
+    "license": {
+      "value": "LICENSE_MIT.txt",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Microsoft.TestPlatform.TestHost"
+    },
+    "version": {
+      "value": "17.8.0"
+    },
+    "license": {
+      "value": "LICENSE_MIT.txt",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "Moq"
+    },
+    "version": {
+      "value": "4.20.72"
+    },
+    "license": {
+      "value": "BSD-3-Clause",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (c) 2007, Clarius Consulting, Manas Technology Solutions, InSTEDD, and Contributors. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "NETStandard.Library"
+    },
+    "version": {
+      "value": "1.6.1"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation.  All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "NPOI"
+    },
+    "version": {
+      "value": "2.7.4"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Nissl LLC"
+    }
+  },
+  {
+    "id": {
+      "value": "Newtonsoft.Json"
+    },
+    "version": {
+      "value": "13.0.1"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 James Newton-King 2008"
+    }
+  },
+  {
+    "id": {
+      "value": "NuGet.Frameworks"
+    },
+    "version": {
+      "value": "6.5.0"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "QuestPDF"
+    },
+    "version": {
+      "value": "2025.1.1"
+    },
+    "license": {
+      "value": "PackageLicense.md",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "Marcin Zi\u0105bek, QuestPDF contributors"
+    }
+  },
+  {
+    "id": {
+      "value": "SharpZipLib"
+    },
+    "version": {
+      "value": "1.4.2"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 2000-2022 SharpZipLib Contributors"
+    }
+  },
+  {
+    "id": {
+      "value": "SixLabors.Fonts"
+    },
+    "version": {
+      "value": "1.0.1"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Six Labors"
+    }
+  },
+  {
+    "id": {
+      "value": "SixLabors.ImageSharp"
+    },
+    "version": {
+      "value": "3.1.12"
+    },
+    "license": {
+      "value": "LICENSE",
+      "type": "file"
+    },
+    "copyright": {
+      "value": "Copyright \u00a9 Six Labors"
+    }
+  },
+  {
+    "id": {
+      "value": "System.Diagnostics.EventLog"
+    },
+    "version": {
+      "value": "6.0.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "System.IdentityModel.Tokens.Jwt"
+    },
+    "version": {
+      "value": "8.23.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "System.Security.Cryptography.Pkcs"
+    },
+    "version": {
+      "value": "8.0.1"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "System.Security.Cryptography.Xml"
+    },
+    "version": {
+      "value": "8.0.4"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Microsoft Corporation. All rights reserved."
+    }
+  },
+  {
+    "id": {
+      "value": "ZString"
+    },
+    "version": {
+      "value": "2.6.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "\u00a9 Cysharp, Inc."
+    }
+  },
+  {
+    "id": {
+      "value": "coverlet.collector"
+    },
+    "version": {
+      "value": "6.0.0"
+    },
+    "license": {
+      "value": "MIT",
+      "type": "expression"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.abstractions"
+    },
+    "version": {
+      "value": "2.0.3"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.analyzers"
+    },
+    "version": {
+      "value": "1.4.0"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.assert"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.core"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.extensibility.core"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.extensibility.execution"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit.runner.visualstudio"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  },
+  {
+    "id": {
+      "value": "xunit"
+    },
+    "version": {
+      "value": "2.5.3"
+    },
+    "license": {
+      "value": "Apache-2.0",
+      "type": "expression"
+    },
+    "copyright": {
+      "value": "Copyright (C) .NET Foundation"
+    }
+  }
+]

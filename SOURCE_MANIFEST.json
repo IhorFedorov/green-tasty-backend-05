@@ -1,0 +1,1296 @@
+{
+  "base_commit": "315b2592856134a067d34440e51ab10d8c1a3e64",
+  "source_files": [
+    {
+      "path": "dnapp/lambdas/api-handler/APIHandler.csproj",
+      "sha256": "865c2575c9d58885bb9702e85284d6a8e79e0f416eb97f6e689d050b850c3884",
+      "bytes": 1703
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Dishes/DishSortingLabels.cs",
+      "sha256": "dd2a23ba140b2eda4614178f57903362143d5b122ec4c8fb955686ece258cc6c",
+      "bytes": 345
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Dishes/DishState.cs",
+      "sha256": "f1b9df2cada88989260e044e01fa583f22e80cf21f0fa7385a8678a4a7cbb6a1",
+      "bytes": 231
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Dishes/DishStateLabels.cs",
+      "sha256": "fe8ef558a5f485fbe1d71a80def6541f8ec7ee15cb9206e70bfb40aef0472302",
+      "bytes": 239
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Dishes/DishType.cs",
+      "sha256": "7fd0cc548a1935806b5e320355d4a1c39be4775decd9529635b01c9a6f58d58c",
+      "bytes": 231
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Dishes/DishTypeLabels.cs",
+      "sha256": "73aca385ba710cdf95b02167775d488bd778cd8c62d3343bfd8b9828dafcedc5",
+      "bytes": 238
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/DynamoConfig.cs",
+      "sha256": "223e792e5705f67160d1c2e8d68e4b6f195fb55b55e6f48ea55ca20d61f95b7f",
+      "bytes": 847
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/GlobalIndexNames.cs",
+      "sha256": "6ace07dc83177ee8938908171258e3077fdee35a1240c9cb1c1ce70e800d006f",
+      "bytes": 847
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/HttpMethods.cs",
+      "sha256": "4fbba1d96378c4b9d1993860a9353adcf5e939ac62e6e13c2b5e5842f9c276c2",
+      "bytes": 320
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Orders/OrderItemState.cs",
+      "sha256": "163f633d2b6d704871fc4d4ae8d45d42eb33ac23a86c9842e1ca5dc48d876aa7",
+      "bytes": 133
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Reports/FileType.cs",
+      "sha256": "4d99164ffa0e888abd297935c6bedb85977e128af87d17022af3cf3ce7613569",
+      "bytes": 202
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/Reports/ReportType.cs",
+      "sha256": "da00087c11ef4a0e9376e3faa99c435077a172ca83c8a28662d0789d809328b3",
+      "bytes": 99
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/ReservationStatus.cs",
+      "sha256": "51614d9ae6d1143869e0c0242b47cab6ce9122048da60192ff7333abbbad2cc7",
+      "bytes": 149
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Constants/ResourceNames.cs",
+      "sha256": "429306e19314d5df286432134eb0fdce6ee6f4730662b748365c7887d1be9cc6",
+      "bytes": 6270
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Converters/EnumAsIntConverter.cs",
+      "sha256": "407976e1acb989044516267f475664e1a30605cea82b809880fc296fcfa25539",
+      "bytes": 825
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/DailyAggregate.cs",
+      "sha256": "cb443f7797a51ab4734d7c1b6f5fbd30f9b83ebff3e334f5cedc40ac89e7c071",
+      "bytes": 1128
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Dish.cs",
+      "sha256": "f59c64c242066347cc531ce0e3a9640206d2ebbfba55cc5fb288e6739b70baa5",
+      "bytes": 1475
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/GroupReservation.cs",
+      "sha256": "c99782236623d2ad7ffeb9276e1f062906f3274ee33c395281b34b7535a6e4e6",
+      "bytes": 635
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/GroupReservationStatus.cs",
+      "sha256": "852c64e893ddae040d5cad396853725289274d17afd7d8723860a7c2b984466a",
+      "bytes": 119
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/GuestSession.cs",
+      "sha256": "d88cd562b81f731ae6ea23e8e087f2da5c9fae239892b31cb3fe0b650dbacf11",
+      "bytes": 1116
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Location.cs",
+      "sha256": "676161107c9e99c298d6102c6ea87e9e9e368f661c79e91653f735ca30acadd0",
+      "bytes": 877
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Notification.cs",
+      "sha256": "d0ebe33a5e16556fc6f640a92de427917f0e6a8e318e03fa2f4f3e710e9ba207",
+      "bytes": 1097
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Order.cs",
+      "sha256": "971eac247c76504bb443349e54fe46a88cf620497d05e08960c9e6315c864798",
+      "bytes": 1482
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/OrderItem.cs",
+      "sha256": "dd67917dc486e653efb9634f73abcb9b2de06f680612fe5120532639caf2c728",
+      "bytes": 594
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/OrderStatus.cs",
+      "sha256": "a0e679ec32745aa8eaee5ef75f6bd6ab67790857831f97c47d1570ca89d14761",
+      "bytes": 135
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/ProfileImage.cs",
+      "sha256": "7a63498391db1ef88d4bcfa846c2e17450953f9a57fe6e660197509671945c53",
+      "bytes": 315
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Reports/ReportHistoryBase.cs",
+      "sha256": "c8c136efc108ea5a97e4bca3f643e114e27d5fb8fc0f2fe6a76020a441924b91",
+      "bytes": 1487
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Reports/ReportHistoryLocation.cs",
+      "sha256": "8e1a15ecef0ee96ec02ad55b6b8078ee59b8250ba4906d8c4f77585a5fe3fba0",
+      "bytes": 1033
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Reports/ReportHistoryWaiter.cs",
+      "sha256": "96d7550ed0072c9cf484b3b3b423eeb8a05e63a4ce8b6a31d90cf1bd12f95d85",
+      "bytes": 1446
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Reservation.cs",
+      "sha256": "92a1181558b69216a462b3b5e81f5fb50ea274fdc0589e05cbaed1cc8b11400e",
+      "bytes": 1479
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Entities/Table.cs",
+      "sha256": "04895bcf7b280e4e714d47eac3b9018bf1e78db1ed00f43159cb7a571225a8d8",
+      "bytes": 856
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/ActionForbiddenException.cs",
+      "sha256": "b3c08883700fb1bc671ab1f828dc09a2c3bdc99dab6b54ed0a5ef24114051757",
+      "bytes": 131
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/CartIsEmptyException.cs",
+      "sha256": "d0e67c59d5f7e0354461b49def779fd06c8f9e90d01fdb35716599fe53dc8a68",
+      "bytes": 118
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/DishIsNotAvailableException.cs",
+      "sha256": "83c7c668cb2ae24e486ce8ca710be350d6fdb38fcb1bdf2ad80838523517b0f8",
+      "bytes": 154
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/DishNotFoundException.cs",
+      "sha256": "324121d2265ed13ca38a867eea7a20c3f6fbe9c599175c522f643e66cd228332",
+      "bytes": 140
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GroupReservationExpiredException.cs",
+      "sha256": "941de792d4ea6adfed53048e99e875617dfc268c0171d2d3946b7aa01b64b47c",
+      "bytes": 166
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GroupReservationNotFoundException.cs",
+      "sha256": "d3bccdc08c2105ad97e6a2cff50fa653a0378353fc434f94657ab3cab78f4143",
+      "bytes": 147
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GroupReservationSubmittedException.cs",
+      "sha256": "1394248665e0625cc8d7aca083ecec6f960e1b820f128ea48aa2b397a579b396",
+      "bytes": 147
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GuestLimitExceededException.cs",
+      "sha256": "1fb10a776f4c72606b786d0709337e103319081d8fbf9d012a28a603ae43847c",
+      "bytes": 174
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GuestSessionExpiredException.cs",
+      "sha256": "fd96fc3c95118b68e01d8911871a8daa770aad1a06f8a47700301328ccfd2663",
+      "bytes": 135
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GuestSessionNotFoundException.cs",
+      "sha256": "ae1ab02dc3fd9e317ec212f33438b770ca3c2f1aead08d2fab79c5477df6deef",
+      "bytes": 129
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/GuestSessionSubmittedException.cs",
+      "sha256": "b41d55c4a8bc278d771db341447f4e9fe4f99d2b7afb0126731ec75040fc8c40",
+      "bytes": 148
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/NotificationNotFoundException.cs",
+      "sha256": "8ae2ac75017333d4dea77253b4d2396d6207d40b5894ab46455853d9eaa31b87",
+      "bytes": 149
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/ReservationNotFoundException.cs",
+      "sha256": "26f641d13bd53cde25c3ef8f2e0b7ee67e508ecbcef2bbd51e2f24ddf177bb50",
+      "bytes": 162
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Exceptions/ValidationException.cs",
+      "sha256": "70e85b168d5898ba5b4027d562bad0582d00d58b19fa421c62c052085ba3e9a1",
+      "bytes": 126
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Function.cs",
+      "sha256": "1dda5c532a436ed96324136f31d949126e71c188bdb05852e550b4d89b3bcc49",
+      "bytes": 2218
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/AddWaiterHandler.cs",
+      "sha256": "7fbefd1b52e091bb1ab6037dff95a993d4f28e9b4da447e92da2dae434e00559",
+      "bytes": 2551
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/DeleteWaiterHandler.cs",
+      "sha256": "609707922cea62f064d16744bc75fed00d5058a24b64f67678832a41b2190e53",
+      "bytes": 2482
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/CreateDishHandler.cs",
+      "sha256": "51a4a09702c71980b8dcda944a811fd5cd45b1b6312da873c87a936b5bde94c0",
+      "bytes": 3816
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/DeleteDishHandler.cs",
+      "sha256": "c5e975d867b47ce33a2f6747b878d1111d6204d7e28b6bb2ff908a12a446bbe6",
+      "bytes": 1267
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/EditDishHandler.cs",
+      "sha256": "183dfff153035f32d2c39020e7265ad3d4b7929c8fbfba02fc32e6e09c3a7569",
+      "bytes": 2469
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/GetAllDishesHandler.cs",
+      "sha256": "257cdbc2bc4cf4cebaef0864fafa8097297a1f74b1b87ae8709d42e1df6a0078",
+      "bytes": 3766
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/GetDishByIdHandler.cs",
+      "sha256": "178e3d2923cc8b4747d3f2bb6d1fc873b20bc46b14d63ed35040f38f7e2b4b6b",
+      "bytes": 1512
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/GetDishesByLocationIdHandler.cs",
+      "sha256": "b0132fbc97f9e740548fb2806004fe79ddb0e9a9c92d4b3037aa936fc36a09a2",
+      "bytes": 2568
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Dishes/GetPopularDishesHandler.cs",
+      "sha256": "34f4b969a9d23134aaa7d0b8a335116a48a82962e4a7fcd710106b7f521eb28a",
+      "bytes": 1288
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Feedbacks/CreateFeedbackHandler.cs",
+      "sha256": "14e8c7562a6b88767c9ef8c3a51f788e43815c0f96a90725c23e5306d13d13a2",
+      "bytes": 3033
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Feedbacks/GetFeedbackForLocationHandler.cs",
+      "sha256": "fcdd6e5eb8446fc7985005f897a05284864f557e5e2393ee7ce46aa4616e2551",
+      "bytes": 3803
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Feedbacks/GetFeedbackForReservationHandler.cs",
+      "sha256": "8236dc3a51baba75e5e028c826a4301659697c462f23b4a384053c2f37b8a3b8",
+      "bytes": 2276
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Feedbacks/UpdateFeedbackHandler.cs",
+      "sha256": "292e704ea8dc61df6a2de7460180682e41df3184b09eebbe8576940d630135a5",
+      "bytes": 2961
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GroupReservations/GetGuestReservationHandler.cs",
+      "sha256": "3831c1150bab5b1f3d2de88351a958aa06f1e858c01c0b3042f1aaa118f0d03d",
+      "bytes": 1205
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GroupReservations/GetInviteTokenHandler.cs",
+      "sha256": "fe37684e9ad736cac2578c44607fc2901c1e8bb7463501e4dc3fa8abffcd9596",
+      "bytes": 1285
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/AddDishToGuestSessionHandler.cs",
+      "sha256": "de926792383f2c40a3aff538cb451325021cff98acb9d31c4b2ab408f5885bee",
+      "bytes": 3397
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/CreateGuestSessionHandler.cs",
+      "sha256": "1ec3173edf8d49170549c537d8ce6b3ee8856854fc65c93b5eb77767d3857dbb",
+      "bytes": 1059
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/DeleteGuestSessionHandler.cs",
+      "sha256": "d4b1bcadd2f9f8ee6d582bea9a47443a6fe39258e1647c66862100e360e1ae12",
+      "bytes": 2637
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/GetGroupReservationStatusHandler.cs",
+      "sha256": "68cd09680f741da76688bd9b30ba7ad5c37877d71698ac1629eaafa8295a425d",
+      "bytes": 1424
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/GetGroupSessionsHandler.cs",
+      "sha256": "c069fa1fcd319b6dccf84bcc60e172452c85d010591fdccce2cc0a27b1a64eec",
+      "bytes": 1768
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/GetGuestSessionHandler.cs",
+      "sha256": "2f89231fec7b44411344cc2e37f7637f4386ca6e4d67c8e669902f5504787067",
+      "bytes": 1463
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/GetGuestSessionMenuHandler.cs",
+      "sha256": "9ac8fbff4969922b3f8795a44de28878bad7172a249c1b321c7ed31f6e16c5ed",
+      "bytes": 2055
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/GroupPreOrderHandlers.cs",
+      "sha256": "1a53f30423b3d8f07b3944f17aee6403e4dd385b26f2ebc0db44a82385a31fa5",
+      "bytes": 3038
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/RemoveDishFromGuestSessionHandler.cs",
+      "sha256": "0230d0349cb664ec46a4d9c533303f24c8ba2ac35791c8a5692966834f14fabc",
+      "bytes": 3330
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/GuestSessions/SubmitGuestCartHandler.cs",
+      "sha256": "e70d83061f0511d94c06ed7e1077777e530e63c0021e1b76a4bb18384370dfa0",
+      "bytes": 1828
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/IApiRequestHandler.cs",
+      "sha256": "a8a53ac4bcbb0f9e0225e01fb70f38900c54d5e439ab227b75db31d5e4c7ec10",
+      "bytes": 1015
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/CreateLocationHandler.cs",
+      "sha256": "0c6c8a26fbbac8f1f57dd597e0785c7cd947d0403fa0c0645dc4a4af6f8beeb0",
+      "bytes": 3133
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/DeleteLocationHandler.cs",
+      "sha256": "77afca1d4a8b7855b3a4ee9ad50a97152a29638ed6cf0492a01933aa74d6883c",
+      "bytes": 1913
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/EditLocationHandler.cs",
+      "sha256": "562c992e72c992643f23b2f6082b5dc172d1d597d0d9b9ad349ba0bfbf0cf15b",
+      "bytes": 3956
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/GetLocationByIdHandler.cs",
+      "sha256": "32318007174e3fc0725b9b47461d0179bbb9420277a233764af41bbbe3323b1f",
+      "bytes": 2133
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/GetLocationsHandler.cs",
+      "sha256": "b473f5d5e2d906b1a80880012ab7528b7280ba37332c68e187e87b35a6f6ad3e",
+      "bytes": 2392
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Locations/RemoveDishFromLocationHandler.cs",
+      "sha256": "5f1e3558fb51fd0ba25bce4575f330f06ce76ea895e785b1591bfb714c85b6da",
+      "bytes": 1741
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Notifications/GetWaiterNotificationsHandler.cs",
+      "sha256": "46ef60ca2fa1db16cf21cce4b4defa3d1fd31d1a4852256e507b50d9585d691e",
+      "bytes": 1456
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Notifications/MarkNotificationReadHandler.cs",
+      "sha256": "2c72d151a7299ffcfb4f13824d60ed51bdb42f28f3bd92d6b9b3f25a37c6014f",
+      "bytes": 3049
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/CancelPreOrderDishHandler.cs",
+      "sha256": "a06bdd1ed19d939dce067026291864936faae19fb057fbdfcbdc8e878b86307d",
+      "bytes": 2506
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/CancelPreOrderHandler.cs",
+      "sha256": "0493c4a3987cfe5c95f07652f21016d041d4f4b06dc3eba2f51e6538feb7788a",
+      "bytes": 2569
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/ConfirmPreOrderDishHandler.cs",
+      "sha256": "0dba5ed498407643ea52fb9c3b80746cee0ffa152af0b7607d34ea524d7543d0",
+      "bytes": 2506
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/CreateOrderHandler.cs",
+      "sha256": "875df75e315495cb9d718069cdabba1718dd4e82f5b81c75b790a2a1ec36bc87",
+      "bytes": 9513
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/EditPreOrderHandler.cs",
+      "sha256": "62bcffd7a6b9a717b933b8c44cf7c6ce7b3fc81ddc4186a1e6008d0a74612b21",
+      "bytes": 4880
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/GetOrderByReservationHandler.cs",
+      "sha256": "f83dc5da860cb96af8fdb18b1a49bf7c054b00cd0fb4ad7cf2bf88dcdf50e663",
+      "bytes": 2346
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/GetOrdersByCustomerHandler.cs",
+      "sha256": "a570554bb8ac221ba4406060531fff00de425938b1d3098d91ec6d5916e7a62a",
+      "bytes": 1731
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/SubmitOrderHandler.cs",
+      "sha256": "df5df263aac0091e95a5f22f36cd25d8c5566432cfc568bdf71cfaf68fdc9db3",
+      "bytes": 2560
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Order/UnsubmitOrderHandler.cs",
+      "sha256": "47fa7ac457a719683458d1b6b65fd24863d5ed9f0775ba93e25f742ac66340f8",
+      "bytes": 2586
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/RegistrationHandler.cs",
+      "sha256": "ce5da75fb368331e3d985f8ecf4bfce482e3b24394a2c73f5f63ba955242469f",
+      "bytes": 6939
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reports/DownloadReportHandler.cs",
+      "sha256": "18dfe0567081cae7d1959543c7bf30b8a1a7235b722a365a431431cb98a2605f",
+      "bytes": 4595
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reports/GenerateReportHandler.cs",
+      "sha256": "2bc1a2e4107af1a4dd8e4b613fcd9630524c91809c5e3a3c722fd7b27f9432e7",
+      "bytes": 6852
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reports/GetUserReportsHandler.cs",
+      "sha256": "96c43cb957963fb522cb85bd6c60efea0e1de00d34ec085ad5b6d5c07ff1d432",
+      "bytes": 1136
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/CancelReservationHandler.cs",
+      "sha256": "0dfaf87660d736afa74789b5e3d5e65321db789201d177f13220b0e3aab9f44a",
+      "bytes": 4472
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/CreateReservationHandler.cs",
+      "sha256": "7a75e9da98f7a8f5190f306a46f1c0a8bc7bae7144715089a87caa89eead45d2",
+      "bytes": 2632
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/EditReservationHandler.cs",
+      "sha256": "2b3f35d1d16468a2b09be8cd470f589212777e500786623199bef55d77d57e65",
+      "bytes": 7235
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/GetReservationByIdHandler.cs",
+      "sha256": "74a3004d978bc24d0c6b0c7191cf6bf0b5f9a482098f9f51c9b2567a758e3915",
+      "bytes": 2629
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/GetReservationsForUserHandler.cs",
+      "sha256": "cc4f8c6a1c46774010de95e8fa3e635a82e66a20dcb233f3759b22e9eea1ec3f",
+      "bytes": 6813
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/UpdateReservationStatusHandler.cs",
+      "sha256": "349b7770c96abae6c4282b67f5f9171759e1319c5c6251be32c44368d5479ac9",
+      "bytes": 7470
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Reservations/UpdateReservationTableHandler.cs",
+      "sha256": "65400fb1d44c717b7e6401896d15ca094cd478e963f129dd3c8d941c4a918042",
+      "bytes": 3080
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/SignInHandler.cs",
+      "sha256": "7316827e6a43be7374557f65e8aab51a4f1c842d149b35b5b28a764e11c64688",
+      "bytes": 3705
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Tables/CreateTableHandler.cs",
+      "sha256": "de6daaf688cc1b04a5b2c5848b4b525273d4e91a4fe11262f55484bac5d4e67a",
+      "bytes": 1437
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Tables/GetAvailableTablesHandler.cs",
+      "sha256": "9016a81efb9e338422687c133dd4f23e14cb7d95958640bf0ffab28b5754d89a",
+      "bytes": 1303
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Tables/Management/DeleteTableHandler.cs",
+      "sha256": "a8814ceb2ee7962c7642c95ae461b22e58df46fb93c619d616f7a12b17029c81",
+      "bytes": 1187
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Tables/Management/EditTableHandler.cs",
+      "sha256": "a3e52031844ac520a1804a3e33b2ed277889dab43a001c77a8bc38bb00305d12",
+      "bytes": 1727
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Tables/Management/GetLocationTablesHandler.cs",
+      "sha256": "b28d6222968233e471fa86507e64d9dc895602a88a676582741aa2f80b3a431b",
+      "bytes": 961
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/TimeSlots/GetAvailableTimeSlotsHandler.cs",
+      "sha256": "ca44504a2ddaba32f0f7f9cd03249ba7e2a66b2ff28de662dbd826b52ae147da",
+      "bytes": 4380
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/ChangePasswordHandler.cs",
+      "sha256": "dec340d90f85f01e09562cb208c275581f6b0b8b349af925982dc54ea04a86a1",
+      "bytes": 2846
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/EditUserHandler.cs",
+      "sha256": "7c937fcec3d3637e4f7189fe43e41866aa1c9bd13049afabae9bfad74e0ef248",
+      "bytes": 3799
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/GetAuthorizedUserHandler.cs",
+      "sha256": "d4959217aaf9dd672fbad70d069578a819ac0abfe06f64dd6622cfdc257b67d0",
+      "bytes": 2770
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/GetUserNameByIdHandler.cs",
+      "sha256": "fcfec8fc3509a0ea660693c577d5a79864fd4d3b96ce84067f8848335f8feb6b",
+      "bytes": 1025
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/GetUserProfileImageHandler.cs",
+      "sha256": "49657f177fd510866a0409bf1aa6cda662d6ba7907574ece46f9034cd4ff50ca",
+      "bytes": 2003
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/GetUsersHandler.cs",
+      "sha256": "1336182675a52cb923d6f5ead19c151bebaefa6df815c02248e7ba365cfda2b3",
+      "bytes": 4140
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Users/UploadUserProfileImageHandler.cs",
+      "sha256": "e3ba63e379878284da51af54d5bdb652174b6af8b1d3efa5beba0aebcac6fb11",
+      "bytes": 3602
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Handlers/Waiters/GetWaiterLocationHandler.cs",
+      "sha256": "1b9540267a12a47f66c7c54f61f3178f55e9fdea717b27080db8a15f49e82368",
+      "bytes": 1265
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/APIGatewayProxyRequestExtensions.cs",
+      "sha256": "b17de6f0f08b334eda7cad5937607ee343b4569d18ac2f2240ce30a6ebc4075f",
+      "bytes": 482
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/CognitoIdTokenValidator.cs",
+      "sha256": "247118c4a807eb892b587fa50e90efa17d8216ea65cf03d6d28a3b866b3daae8",
+      "bytes": 1528
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/DataAnnotationsValidator.cs",
+      "sha256": "2ba54b5a683e1f7e131018eaed4477d28b037aa774ebb67c793b0f1ae60cb797",
+      "bytes": 1038
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/DataValidationHelper.cs",
+      "sha256": "232607fb5ba493bc404537d4182867858bd2c237d319f35218b4157e354800e1",
+      "bytes": 179
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/EqualityHelper.cs",
+      "sha256": "5d459243c452494148405ccb29a560a0b3b9bc29523d49587314fcd3ffd60ea2",
+      "bytes": 650
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/OccupancyHelper.cs",
+      "sha256": "5f5aae77f703f1af1b5c50131e680750fc61c075b8a9cdf673c43e525a320aae",
+      "bytes": 1591
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/PersonalDataValidator.cs",
+      "sha256": "ed6c9b3df002befeb546567b55486ce15a7fec59b6e983a6c9c2e7d2862dc9cd",
+      "bytes": 3886
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/RequestBodyHelper.cs",
+      "sha256": "65b86ed3ab6b3579790e015b57de70cb28c4cd3a081a6359f1dccda6fa80f8ec",
+      "bytes": 1395
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/ResponseBuilder.cs",
+      "sha256": "49b85b1a5d74e56bfa6488d1e6b527841c4594c87c2a10bbc07c1be3bc243ea3",
+      "bytes": 4644
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/RoleHelper.cs",
+      "sha256": "9fa7943d5630cd38c0ca75b8ed40e0b210dc60cddc3458e000eccf29f934c6d7",
+      "bytes": 1407
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Helpers/UserContextHelper.cs",
+      "sha256": "a97df7f1d87b737ed0dbab8073a545ca3b3c84c7737d654cd74695f210dc62ab",
+      "bytes": 937
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/DishMapper.cs",
+      "sha256": "8b261dc8e4e434af9c80511e88076493442635e9eca4b3f7801037e6053cf57d",
+      "bytes": 3057
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/FeedbackMapper.cs",
+      "sha256": "c2da6e491321bf0ecce9cb30dc3153ecc33026bc0b6413fc0bf3b467a9b14970",
+      "bytes": 964
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/GuestMenuDishMapper.cs",
+      "sha256": "1740a309822c9e824b23a94b6b622399d183f139c7f5504a8b85080edd46b335",
+      "bytes": 788
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/LocationMapper.cs",
+      "sha256": "220e273edf7b23e04fc836e35f72fc033f359916a1c6d0ffef1e8cfba193a6a3",
+      "bytes": 1223
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/NotificationMapper.cs",
+      "sha256": "ddb3c0aac1cac51d317d2cc3ceb83afa1ea4f40a4c786cc167a9be84ab4c7225",
+      "bytes": 841
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/OrderMapper.cs",
+      "sha256": "c81d7e1e8c42a54ab748fbf9e146eb80d799298318ed90bd50abe319e8adb05e",
+      "bytes": 1491
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/ReservationMapper.cs",
+      "sha256": "ebda0cb68a92522364838ae0914c45e9cc9738d18b96d40ad53deac59f4cfc5d",
+      "bytes": 1540
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Mappers/UserMapper.cs",
+      "sha256": "2401c8f150b899150e02e1fcf789f2ea086526b05ae6df77428cee02aa7cd06f",
+      "bytes": 762
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Dishes/CreateDishRequest.cs",
+      "sha256": "4131c6e77452d2d6ac88dedc59db57166ac01c1c3d206d5888a9cbb77238c6f6",
+      "bytes": 1520
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Dishes/DishListResponse.cs",
+      "sha256": "7250d681cb2354a5be9feb327d1a1a9a224795b8769313a2e033b8bdafd9eee7",
+      "bytes": 1265
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Dishes/DishResponse.cs",
+      "sha256": "25afe77fd0eae4c81fd3ade6df4b3d20e3044ef8221bd92a4e7fe66abebd9fcd",
+      "bytes": 1234
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Dishes/GuestMenuDish.cs",
+      "sha256": "a52b220857b5942e9338295c6207034c1cc96895a2fa5fc878493cb48d1e2151",
+      "bytes": 793
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/ErrorCodeResponse.cs",
+      "sha256": "809218386a53530d17eb380dff5754135d7d17c5c496f7fc6e68e553a1ca66d1",
+      "bytes": 644
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/CreateFeedbackRequest.cs",
+      "sha256": "fedbc3cb53c571ee48ab5ed7f8cc5c958ded35ffecdbe613ac3fd9b9032550b6",
+      "bytes": 587
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/Feedback.cs",
+      "sha256": "699fe16f9164c01f79d8dea9202b7f3ee76ad2fc566bf255ed381ad337042339",
+      "bytes": 1154
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/FeedbackQueryParameters.cs",
+      "sha256": "104623ee0916470455c21448a044e34a7ce3a76f27f04bd4500b2a9e55f27e4d",
+      "bytes": 298
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/FeedbackResponse.cs",
+      "sha256": "516e4c183a8a17ed36d0774c1b02342710ea5dc6f36c41a02de1b06389c286f4",
+      "bytes": 415
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/FeedbackResponseItem.cs",
+      "sha256": "6ced67144feea1729ba0efabf6b36a42a1ea474b8d26eaa2c42d4ccfe3c6ef4e",
+      "bytes": 888
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/FeedbackType.cs",
+      "sha256": "ca527af3eda7d3be48295e642453066c7371a619c4a2f7c8ca3d2a4962cdc418",
+      "bytes": 110
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Feedbacks/SortingOrder.cs",
+      "sha256": "896703842d1bba2a49125fb8ab3bcf2c3b8a7f6b4f331d2e8318f5fd5fedac33",
+      "bytes": 147
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GroupReservation/GetGroupInviteTokenResponse.cs",
+      "sha256": "85633cb1efbdedf60fef8c1cd8ea31a93bd2653698bf0f0dffb1e06b60c7e74c",
+      "bytes": 108
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GroupReservation/GetGroupReservationResponse.cs",
+      "sha256": "9b2a062e59292cb2ef45112a18ec9574e1b40456622d712f47ce49676ea476bb",
+      "bytes": 346
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/CreateSessionRequest.cs",
+      "sha256": "2de4e29702f1d44969bbdd33ec0a047e96e6cdf2e3b691199883dd9f227beda3",
+      "bytes": 236
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/CreateSessionResponse.cs",
+      "sha256": "debdd0126c75d3b2bb339d28f4e66336a69caf08ec38b486a9a75c56db951e3c",
+      "bytes": 128
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/GetAllResponse.cs",
+      "sha256": "22561cbfc6726637e71be95283acbcf48b9ef576b13bca70b4a3ac671355a759",
+      "bytes": 563
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/GetGuestSessionResponse.cs",
+      "sha256": "4d07de8bc1b02491944cc49308ed76fb48d451119bc63e1c1ddfd44d849d3822",
+      "bytes": 264
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/GroupReservationStatusResponse.cs",
+      "sha256": "5d8a206c01a916c7721f79bb5ff78ff18902b21a81161a2fc59a9e8b0e32eb4d",
+      "bytes": 519
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/GuestMenuResponse.cs",
+      "sha256": "562b39b85ea9828b1b6294e61c28f5385333b602c78efb3d53d1b4549ccbe44f",
+      "bytes": 244
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/GuestSessionDishResponse.cs",
+      "sha256": "6935ae2c25e381e341bca4957597b26e5a1a47037babd023077acc498c3c3228",
+      "bytes": 494
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/GuestSessions/UpdateGuestSessionDishRequest.cs",
+      "sha256": "8531623c4e920ad5f033e5e1570b7e848c5aaa5c324ac24ab5ca9d9f953695a9",
+      "bytes": 305
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Locations/CreateLocationRequest.cs",
+      "sha256": "0ad4307602bc934de23e88a36e39df58fd6d9dc48365c6227c9460a9e20b5c19",
+      "bytes": 661
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Locations/GetLocationResponse.cs",
+      "sha256": "97c24e267d4005a34b0c7cda3580ae62f43672d61697119bc5d5e865d0017a82",
+      "bytes": 772
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Notification/NotificationResponse.cs",
+      "sha256": "8a8b0802e21e5098b6b306685e8ef964afb2d698a8cfcb4c7c5b549a87e01b3f",
+      "bytes": 630
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Orders/CreateOrderRequest.cs",
+      "sha256": "adf424cd3c0096593623386692f5a2a4689cbc24a3add0ab1aa1d5b1d209a13e",
+      "bytes": 376
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Orders/EditPreOrderRequest.cs",
+      "sha256": "6735bbf3a8d1a28d5e770949cf94f73736c72a88b2fd6e66fb92f01ab35f45f5",
+      "bytes": 278
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Orders/GetOrderResponse.cs",
+      "sha256": "d551c54a35fb08ee7e2a7e78229b07ae911c6698b0f64965f50a19baace4f167",
+      "bytes": 798
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Orders/OrderItemResponse.cs",
+      "sha256": "995aad1ef9eb5171b2b990c5cc2f0a7210eea738ebd0aeb1d1f32ecb567ad399",
+      "bytes": 316
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/RegistrationRequest.cs",
+      "sha256": "96b9ab83cf5a4838587cfa6de466e0854a357d82234812dd079f0078fb97e5c4",
+      "bytes": 1690
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reports/Report.cs",
+      "sha256": "7aa51fd30b3e52fe93e37d4777e9d459213101c27f1e8cbaa8dd07bbdf812478",
+      "bytes": 535
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reports/ReportHistoryFileDto.cs",
+      "sha256": "b3c78c2d8a33d751328ac8e25bd5fa9e416dc9fb0e6e4133ca5981426802f7b5",
+      "bytes": 253
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reports/UserReportsHistoryDto.cs",
+      "sha256": "37ab7000ad84b78df2e03e4d37f6455294002a8b84a75db20868d95c0f35d9b0",
+      "bytes": 715
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/CancelReservationRequest.cs",
+      "sha256": "b098a1c323546b5b7c8cddceb39e570757259abe9240640b7c66300da2b10866",
+      "bytes": 223
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/CreateReservationRequest.cs",
+      "sha256": "b95c8d72e6f80879424c7ea54b246c86331f257757aad9dbb6bcbb4d3f1d15a1",
+      "bytes": 730
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/EditReservationRequest.cs",
+      "sha256": "28d96592f7947c80b67534889e2dfde80c368a0e2bbae3d5c9555cb7fc0d8a81",
+      "bytes": 484
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/ReservationResponse.cs",
+      "sha256": "623f143ac79be37a47fac11b876e119fa8cb9f68867a2c7aca4c0b4582d4fd9f",
+      "bytes": 1267
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/UpdateReservationStatusRequest.cs",
+      "sha256": "86cfc2c529d7ab99df7ba1d58880e67cdea11040755a6f2083440846da4af2ba",
+      "bytes": 255
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Reservations/UpdateReservationTableRequest.cs",
+      "sha256": "2d1a853eca6e8936845418ab265175a21b17a8cbbbd540036b2ce3b6709bdcf8",
+      "bytes": 224
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/SignInRequest.cs",
+      "sha256": "5e21da19bd0444675bf51cc380f8c6f7e4a9ef9b1ba69c52ecab1ae4b5be51a4",
+      "bytes": 275
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/SignInResponse.cs",
+      "sha256": "011eb95582ccb1d548b09818c57338b755ce4c4e36624deed4a030df8d741586",
+      "bytes": 394
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/SuccessResponse.cs",
+      "sha256": "c59797ba2eaf12a2ffc20af56bc0e677cbc3c83c1b9d784c5ec7ec61d7260b5e",
+      "bytes": 83
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Tables/CreateTableRequest.cs",
+      "sha256": "49e9a30d36c689aacdbb35d8a39e3212402c336cbb9e9208be7406e11464a79b",
+      "bytes": 368
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Tables/UpdateTableRequest.cs",
+      "sha256": "bf6a96292cc29a4f4a0fc7a1a6a34af8e9a892ee909bb50167ae8a5796bf5667",
+      "bytes": 160
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/TimeSlots/TimeSlotResponse.cs",
+      "sha256": "47a7a397e03737ffaeb9343be177c6b2e96cec6d4a25b5df7c3e7dd9487f32d0",
+      "bytes": 282
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/ChangeUserPasswordRequest.cs",
+      "sha256": "bf34a5f6f0858700419a9ec3048a59dbaa0a637fffe49b488ac18e7adfff9fe9",
+      "bytes": 427
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/EditUserRequest.cs",
+      "sha256": "72562db3d3168d988d86ad377f077ac3421aabc3d307b518d7692a57278a031f",
+      "bytes": 291
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/ProfileImageResponse.cs",
+      "sha256": "007a178c2d7520387db2ea92d0df81827bd67780da7c5cd8f466a72ab97e8cf6",
+      "bytes": 216
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/Roles.cs",
+      "sha256": "d5b36b15529db722d0a322eb935688f81ab25ec3fb66aea1a9cea44526d8e074",
+      "bytes": 113
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/UploadProfileImageRequest.cs",
+      "sha256": "80feb816c4f0bb2d6676f06b766111eaa81293fb62eec978a2e8b83650556e08",
+      "bytes": 219
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/Users/UserDto.cs",
+      "sha256": "c0c7e43d878e9130400a7a0701871614587811b60913ebdd44a2538d96ffd019",
+      "bytes": 524
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/WaiterList/UpdateWaiterListRequest.cs",
+      "sha256": "99ebde43a339f75e1d11ded9812c7d404968321b0a53fad2f8f3c3d70edaab7e",
+      "bytes": 300
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Models/WaiterList/WaiterListItem.cs",
+      "sha256": "faf90783b2d23701a278d8e2e2092663593eb0eefe5e1a269358dfb2f98fdbab",
+      "bytes": 640
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Records/ReservationContext.cs",
+      "sha256": "345f687b70025a4aedd1094ca9b1895a3ec200ff904a2f5c19ea1dfa9165451c",
+      "bytes": 149
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Records/Route.cs",
+      "sha256": "6ada1e9a8079d60cf57581809c2e2b980eca0d61a456401752df18a94a27eb4a",
+      "bytes": 90
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Auth/IUserRepository.cs",
+      "sha256": "4018ebab0ffbb0233c50f92219e28691681f65e810e0f1be562bb750b15f6587",
+      "bytes": 510
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Auth/UserRepository.cs",
+      "sha256": "8d14f7a298c727f91623064204d0f293dd671f0fd8ae5dc19f1cabde86a4c69c",
+      "bytes": 3267
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Dishes/DishRepository.cs",
+      "sha256": "8f740549aa7197f424b30a8d7846cafc8f8db5fa32357d75ccb859601dd872e8",
+      "bytes": 3723
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Dishes/IDishRepository.cs",
+      "sha256": "1bd839cc8f765ec4585ba1778c61c0e292656b63e426d58ba10ba28f9659991b",
+      "bytes": 461
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Feedbacks/FeedbackRepository.cs",
+      "sha256": "d4b1f0969fa4f84dfb522177d555aa62a854a6faf6d6c45966f3d885751224e6",
+      "bytes": 1539
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Feedbacks/IFeedbackRepository.cs",
+      "sha256": "74abbb91ed5e74783be395efceabd85a9ca8132d587469272ed3349d2763567d",
+      "bytes": 405
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GroupReservations/GroupReservationRepository.cs",
+      "sha256": "0b0bc15ea6adc75add326421ed4673aac86b5f9042889ec5f6efb54528675cf3",
+      "bytes": 2219
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GroupReservations/IGroupReservationRepository.cs",
+      "sha256": "e5ba7ce947eec31f89e2ecc6131d114494217e0a45b9553775d8d5d0b46355b5",
+      "bytes": 591
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GuestSessions/GroupPreOrderWriter.cs",
+      "sha256": "5129e5471957ed3f18bb3202f3e2d6c54556c531e18af10e9584dfc9353a8b61",
+      "bytes": 5599
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GuestSessions/GuestSessionRepository.cs",
+      "sha256": "7cdfe483579b749812c7f45adceef2ecae97a974dd9425beb62c8a72a38ce66c",
+      "bytes": 2663
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GuestSessions/IGroupPreOrderWriter.cs",
+      "sha256": "413473926a0b38be72e4ce9c14b477aca6153bdc6dcbcb08badecd2697137534",
+      "bytes": 331
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/GuestSessions/IGuestSessionRepository.cs",
+      "sha256": "2d7511b7b1af8697ed98a79938582143722128a9b5752e0f9031cc7f72d0eff2",
+      "bytes": 653
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Locations/ILocationRepository.cs",
+      "sha256": "19321061614aaa1c1c4a53c5c07a436d91df17d25e770df2cf469fce12052fb5",
+      "bytes": 642
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Locations/LocationRepository.cs",
+      "sha256": "b2d6d4b9646672e0b5bf0cc082a9e60b6fd58805a388ebc8eb9e62f42b291598",
+      "bytes": 2756
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Notifications/INotificationRepository.cs",
+      "sha256": "f11be69918640cd0694dd05178820e4b47d47c15c1c08032e5329f3aa5664a9f",
+      "bytes": 422
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Notifications/NotificationRepository.cs",
+      "sha256": "07b99faaa35f1773b226fafca3ba6bff07e2953a1ed97f904c869979f54e0295",
+      "bytes": 1592
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Orders/IOrderRepository.cs",
+      "sha256": "d0ffa8e7bac1fa5a29465eb69d371773a89899444fdefc615b66a100d48a06cf",
+      "bytes": 445
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Orders/OrderRepository.cs",
+      "sha256": "d9ea48ba0a224720fa01188a8f38f3821fc429c91a4f459f8307eae0833fda9f",
+      "bytes": 2048
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Reports/IReportRepository.cs",
+      "sha256": "e1ac03e3e5a492a85dece2fb5684adce60e897c07ba48076fc6aaca0aa467c43",
+      "bytes": 607
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Reports/ReportRepository.cs",
+      "sha256": "68f6749b03d410c99b4c4161d35d3bc34d5dc5539f0329a06da4aec3f08b6b06",
+      "bytes": 2520
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Reservations/IReservationRepository.cs",
+      "sha256": "a7a8c3411a188e0c2bc61807784a13334dc5343cec4223287e630a8bdc172f8c",
+      "bytes": 571
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Reservations/ReservationRepository.cs",
+      "sha256": "ca80dcfa8832245ca0cab202bdf442ef7731a790fb995c13422087dae0989c2d",
+      "bytes": 2364
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Tables/ITableRepository.cs",
+      "sha256": "cfc5adc0fed0fcc46dce94826f64c290addc02bcb4398cae75be81757a1ab766",
+      "bytes": 488
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Tables/TableRepository.cs",
+      "sha256": "209d9050e451e41786b071a48511988ca32db406f04d85d0358a3a460a3d0c4c",
+      "bytes": 1634
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Waiters/IWaiterRepository.cs",
+      "sha256": "d835feb98e773f623f5ac4b408c23ec64201e7ebb590f9b84cfb93ddcfd859c3",
+      "bytes": 492
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Repositories/Waiters/WaiterRepository.cs",
+      "sha256": "abb7738dda5ee9609a45011adcd2851f30a1155a474f8015a4035dc510f6e838",
+      "bytes": 1848
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Routing/RouteHandler.cs",
+      "sha256": "eebde18a7f88e599cc99c5dbe69da9f296298bf76ec31c5739a4e01dda23400f",
+      "bytes": 1212
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Routing/RouteRegistry.cs",
+      "sha256": "10aced864597429693cba3ad9e115088739daaf8662ece30c27ed462b9582b6b",
+      "bytes": 17205
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Auth/IUserService.cs",
+      "sha256": "cdef1de5ed84f6fefbffb98b4400e9c4a8aa02e0c547a503364b8acba3076c75",
+      "bytes": 819
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Auth/UserService.cs",
+      "sha256": "5dd543e438d13c6cc115cfa7ee061cf02c8ca88912503f09334d07acabbba1dd",
+      "bytes": 2775
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Dishes/DishService.cs",
+      "sha256": "f0d85b357afd1da87d0edbfc2e237a918a50d56531034af7ce43da363cb35588",
+      "bytes": 4085
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Dishes/IDishService.cs",
+      "sha256": "a6b210e25b8d55aeab60b0b95f43215634717fb01f6deebae6c54a957f9a7c12",
+      "bytes": 478
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/ExceptionHandler.cs",
+      "sha256": "51cbf48b757726d430f78bfbdb5e4ba73039d3897ff5c7c6b51c6bf474bd6c5d",
+      "bytes": 488
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Feedbacks/FeedbackService.cs",
+      "sha256": "b6098f4a55ea8a3efe1c8523b140654af4df9b6826b952368db4c5d65d74e11c",
+      "bytes": 4960
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Feedbacks/IFeedbackService.cs",
+      "sha256": "7123bf7daba12d8cf10f8555f29c311f8b7341552aadedf0555fff687a3aa529",
+      "bytes": 1729
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GroupReservations/GroupReservationService.cs",
+      "sha256": "694b590b3d4a866f337708852881313481f7bb4ee7f69d7a7334a83b4c8c6ac0",
+      "bytes": 6275
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GroupReservations/IGroupReservationService.cs",
+      "sha256": "204d4cf5339ae289790404ec080973aac24dcf86e6b67cae83622fe2b61e587e",
+      "bytes": 949
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GuestSessions/GroupPreOrderService.cs",
+      "sha256": "f5d3c4ab49ad67e96bef87dd0f63edaff32e26432d790eb61acb3300cc916bd3",
+      "bytes": 4741
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GuestSessions/GuestAuthorizationService.cs",
+      "sha256": "f0649de007e9c0e6758dd22276fd944dfd1547da37e944a088cd2f7644ed396f",
+      "bytes": 1229
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GuestSessions/GuestSessionService.cs",
+      "sha256": "64cd3667050b76ecd4a35718af30e1063584a203c1aafd42952d13f6ee426f03",
+      "bytes": 18042
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GuestSessions/IGuestAuthorizationService.cs",
+      "sha256": "e5f6e8af63545cce01155c408c84b6a913b8530447d3b6bd6c5458e38a1fb21d",
+      "bytes": 334
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/GuestSessions/IGuestSessionService.cs",
+      "sha256": "1d410d96ccbbbb9650a9066a1d523f29b6c089601e32a57e95ea5f9b94f05b75",
+      "bytes": 1068
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Locations/ILocationService.cs",
+      "sha256": "574b54f2a79363bb3969ddfcdf30e3432599a3daac09e589351871a2556081e9",
+      "bytes": 691
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Locations/LocationService.cs",
+      "sha256": "868092e99053499b260abd5c2e2310c57b87be8a94d279ca01c20b928fffa52c",
+      "bytes": 5320
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Notifications/INotificationService.cs",
+      "sha256": "f14b0290715f624771fccb23669047caef613b9aa47178d03f0db72fc2c659b6",
+      "bytes": 506
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Notifications/NotificationService.cs",
+      "sha256": "194b440d443474191afe551542f465871b9b890cfb2f8ab34a47fefe4d8c2690",
+      "bytes": 6672
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Orders/IOrderService.cs",
+      "sha256": "bb86507d6f5260f492b0ae4a74754d9f30663c230d094d50b123bc9881a9e2d4",
+      "bytes": 1214
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Orders/OrderService.cs",
+      "sha256": "decde75b3720c6f90181cf927c7fa40db7c8d8aa947478c51882f50b69f110b2",
+      "bytes": 14128
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reports/Interfaces/IReportFileService.cs",
+      "sha256": "90dd9c415715e2702791bb52d15a299bc9625a74df6ce3f3e7e73c39db274882",
+      "bytes": 468
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reports/Interfaces/IReportService.cs",
+      "sha256": "d0196c8f1ada0df104f9622ff2f047ccbf3343c7e0992c56044b1de151ec56a2",
+      "bytes": 1347
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reports/ReportFileService.cs",
+      "sha256": "8c0485b7cbde33b6637e044d2ea5fbeb0dec0c73b4d436791e21ae0dc19c8f9e",
+      "bytes": 13307
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reports/ReportService.cs",
+      "sha256": "967e3e2d5b184b9182bde222cee2917ce74b934a1023897030f3ec2c929b89c9",
+      "bytes": 15162
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reservations/IReservationService.cs",
+      "sha256": "73e207b7636039cec9f4a6ba63fb4859079ac47c8db171f207f5ee692ea814a6",
+      "bytes": 708
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Reservations/ReservationService.cs",
+      "sha256": "08ed3b303083ac7cbb9e3d392f20716531d9ac40fa81fe39b03d7f064598243f",
+      "bytes": 13623
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/S3ImageService.cs",
+      "sha256": "d2f88a63a9e11f803ce58e12ccda20c4cf4cff7a24c24c9ceef8ef3ad60f36dd",
+      "bytes": 3672
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Tables/ITableService.cs",
+      "sha256": "0b69d5dc594fd7b2863b18e430a62c83867f1dc206f4ad78e28109b978f4a78d",
+      "bytes": 598
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Tables/TableService.cs",
+      "sha256": "939ef109ceb14a81fdbeba081a733bf34c62253fbe7ee187599fbf005cd0631a",
+      "bytes": 4805
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Waiters/IWaiterService.cs",
+      "sha256": "dd250b0cd1d4c401290676c262758cf3f41f30ab79c3934e5f31bdbb0b780fdf",
+      "bytes": 945
+    },
+    {
+      "path": "dnapp/lambdas/api-handler/Services/Waiters/WaiterService.cs",
+      "sha256": "a790fdbed7e074d0cc6b0c7a40f5a02b42862778437d1012793932e253d444a6",
+      "bytes": 6885
+    },
+    {
+      "path": "Tests/APIHandler.Tests.csproj",
+      "sha256": "3ddcb0fe5059b9f06186375b11a18a358b369bebc0a2940770496b274eb9bb9e",
+      "bytes": 919
+    },
+    {
+      "path": "Tests/Services/DeleteGuestSessionLevel3Tests.cs",
+      "sha256": "a693b0dfe48645a2183629292f986e72f2035a53b91918784a3eaa2bbef09342",
+      "bytes": 10149
+    },
+    {
+      "path": "Tests/Services/GroupPreOrderLevel2Tests.cs",
+      "sha256": "b1f3d19857ec65455d584958a244e81b18d578bc8b2f97f3a48295f73fbd92cd",
+      "bytes": 22556
+    },
+    {
+      "path": "Tests/Services/GroupReservationServiceTests.cs",
+      "sha256": "d6415f0e2def61fe62f15afb4a8db4751aa5c115559af275e2db21a935ec0f29",
+      "bytes": 10544
+    },
+    {
+      "path": "Tests/Services/GroupSessionsLevel1Tests.cs",
+      "sha256": "d3766f16633508914dae4a721f0c473ba2cdc0eadffa89b1ab30b9502396bd43",
+      "bytes": 9920
+    },
+    {
+      "path": "Tests/Services/GuestSessionServiceTests.cs",
+      "sha256": "c7f03c4135afb8cbd59b9a720f6858fb461344b6a21dbca6b2b2763ddfef29a5",
+      "bytes": 31248
+    },
+    {
+      "path": "Tests/Services/LocationServiceTests.cs",
+      "sha256": "580a1ec829016232f9d13c706f3e6d8f07596b357d602cfb4c02d8d8640a251d",
+      "bytes": 6736
+    },
+    {
+      "path": "Tests/Services/OrderServiceTests.cs",
+      "sha256": "5f028646f63fb9a71bf30d7209c02519cec26e306fc53823aa167eb4c4363c9b",
+      "bytes": 28682
+    },
+    {
+      "path": "Tests/Services/ReservationServiceTests.cs",
+      "sha256": "9f21181648acb546d199864859a9249f41148afb7c6f40616bdd4d1d1e66090d",
+      "bytes": 30454
+    },
+    {
+      "path": "Tests/Services/WaiterServiceTests.cs",
+      "sha256": "65c9ee6d2436cb47264618c1222b5043e643c2ee8739c197123e51248d3e3225",
+      "bytes": 12473
+    }
+  ],
+  "note": "Local-only copy, not a public redistribution license."
+}
